@@ -8,7 +8,7 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$sql = "DELETE FROM guestbook WHERE name='SELECT name FROM guestbook'";
+$sql = "DELETE FROM guestbook WHERE name='$SELECT name FROM guestbook'";
 
 
 if (mysqli_query($conn, $sql)) {
