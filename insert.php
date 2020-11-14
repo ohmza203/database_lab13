@@ -18,6 +18,14 @@ $sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
+    <html>
+        <head>
+        </head>
+        <body>
+        <a href = "show.php">Show Data</a>
+        <a href = "form.php">Add data</a>
+        </body>
+        </html>
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
