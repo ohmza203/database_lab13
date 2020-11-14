@@ -28,7 +28,6 @@ mysqli_close($conn);
     <head>
     </head>
     <body>
-        <a href = "show.php">Show Data</a>
-        <a href = "form.php">Add data</a>
+        <a href = "index.php">Continue</a>
     </body>
 </html>
