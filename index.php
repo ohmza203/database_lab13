@@ -23,7 +23,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="150"> <div align="center"><h4>Name</h4></div></th>
       <th width="350"> <div align="center"><h4>Comment </h4></div></th>
       <th width="150"> <div align="center"><h4>Link </h4></div></th>
-    <th width="100"> <div align="center"><h4>Action </h4></div></th>
+      <th width="100"> <div align="center"><h4>Action </h4></div></th>
     </tr>
 <?php
 while($Result = mysqli_fetch_array($res))
@@ -32,8 +32,8 @@ while($Result = mysqli_fetch_array($res))
   <tr>
     <td><?php echo $Result['Name'];?></div></td>
     <td><?php echo $Result['Comment'];?></td>
-    <td><?php echo $Result['Link'];?><button type="button" class="btn btn-warning">Warning</button></td>
-    
+    <td><?php echo $Result['Link'];?></td>
+    <td><?php echo $Result['Action'];?><button type="button" class="btn btn-warning">Warning</button></td>
   </tr>
 <?php
 }
