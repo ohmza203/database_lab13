@@ -25,6 +25,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="25%"> <div align="center"><h4>Link </h4></div></th>
       <th width="13%"> <div align="center"><h4>Action </h4></div></th>
     </tr>
+    <center><a href = "form.php"><button type="button" class="btn btn-warning">Delete</button></a></center>
 <?php
 while($Result = mysqli_fetch_array($res))
 {
@@ -38,7 +39,6 @@ while($Result = mysqli_fetch_array($res))
 <?php
 }
 ?>
-    <center><a href = "form.php"><button type="button" class="btn btn-warning">Delete</button></a></center>
 </table>
 <?php
 mysqli_close($conn);
