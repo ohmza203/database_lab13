@@ -42,6 +42,6 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<center><a href = "form.php"><button type="button" class="btn btn-warning">Delete</button></a></center>
+<center><a href = "form.php"><button type="button" class="btn btn-warning">Add</button></a></center>
 </body>
 </html>
