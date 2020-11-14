@@ -37,8 +37,8 @@ while($Result = mysqli_fetch_array($res))
   </tr>
 <?php
 }
-    <center><a href = "form.php"><button type="button" class="btn btn-warning">Delete</button></a></center>
 ?>
+    <center><a href = "form.php"><button type="button" class="btn btn-warning">Delete</button></a></center>
 </table>
 <?php
 mysqli_close($conn);
