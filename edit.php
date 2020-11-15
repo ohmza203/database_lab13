@@ -12,8 +12,8 @@ $name = $_POST['name'];
 $comment = $_POST['comment'];
 $link = $_POST['link'];
 
-$id = $_REQUEST['edit_id'];
-$sql = "UPDATE guestbook SET $name, $comment, $link WHERE id='$id'";
+$ids = $_REQUEST['edit_id'];
+$sql = "UPDATE guestbook SET Name='$name', Comment='$comment', Link='$link' WHERE id='$ids'";
 
 
 if (mysqli_query($conn, $sql)) {
