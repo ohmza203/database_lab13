@@ -4,6 +4,7 @@
 	<title>Comment Form</title>
 </head>
 <body>
+$edit_id = $_REQUEST['edit_id'];
   <form action = "edit.php?edit_id=<?php echo $edit_id; ?>" method = "post" id="CommentForm" >
     Name:<br>
     <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
