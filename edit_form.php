@@ -22,7 +22,7 @@ $comment = $_REQUEST['comment'];
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="<?php echo $edit_id; ?>">
+		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="<?php echo $name; ?>">
 		    </div>
 		 </div>
 		 <div class="form-group form-group-lg">
