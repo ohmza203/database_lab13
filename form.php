@@ -16,7 +16,7 @@
 		<textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
 		<h3 style='color:white;'>Link:</h3><br>
 		<input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
-		<button type="button" class="btn btn-success"><input type="submit" id="commentBtn"></button>
+		<button type="submit" class="btn btn-success">Submit</button>
 	</form> 
 </body>
 </html>
