@@ -28,7 +28,7 @@
 		      <textarea rows="10" col="20" class="form-control" name = "link" id="idLink" placeholder="Enter Link"></textarea>
 		    </div>
 		</div>
-		<button type="submit" class="btn btn-success">Submit</button>
+		<center><button type="submit" class="btn btn-success">Submit</button></center>
 	</form> 
 </body>
 </html>
