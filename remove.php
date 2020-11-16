@@ -23,6 +23,6 @@ mysqli_close($conn);
     <head>
     </head>
     <body>
-        <a href = "index.php"><button type="button" class="btn btn-info">Continue</button></a>
+        <td><a href = "index.php"><button type="button" class="btn btn-info">Continue</button></a></td>
     </body>
 </html>
