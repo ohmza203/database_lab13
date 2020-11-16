@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Bootstrap Example</title>
@@ -22,7 +23,7 @@
 
 
             if (mysqli_query($conn, $sql)) {
-                echo "<center><h2 style="color:white;">Record has been removed</h2></center>";
+                echo "<h2 style="color:white;"><center>Record has been removed</center></h2>";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
