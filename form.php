@@ -11,7 +11,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#303030;">
-    <h2 style='text-align:center; color:white;'>Add record</h2>
+    <h2 style='text-align:center; color:white;'>Add form</h2>
     <div class="container">
 	<form class="form-horizontal" action = "insert.php" method = "post" id="CommentForm" >
 		<div class="form-group form-group-sm">
