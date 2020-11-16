@@ -23,7 +23,7 @@
 
 
             if (mysqli_query($conn, $sql)) {
-                echo "<h2 style='text-align:center; color:blue;'>Record has been removed</h2>";
+                echo "<h2 style='text-align:center; color:white;'>Record has been removed</h2>";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
