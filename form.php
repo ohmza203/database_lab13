@@ -9,7 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#303030;">
-	<form action = "insert.php" method = "post" id="CommentForm" >
+	<form class="form-horizontal" action = "insert.php" method = "post" id="CommentForm" >
 		<h3 style='color:white;'>Name:</h3><br>
 		<input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
 		<h3 style='color:white;'>Comment:</h3><br>
