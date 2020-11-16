@@ -12,7 +12,7 @@ $sql = "DELETE FROM guestbook WHERE id='$id'";
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "<h2>Record has been remove</h2>";
+    echo "<center><h2>Record has been removed</h2></center>";
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
@@ -23,6 +23,6 @@ mysqli_close($conn);
     <head>
     </head>
     <body>
-        <a href = "index.php">Continue</a>
+        <a href = "index.php"><button type="button" class="btn btn-info">Continue</button></a>
     </body>
 </html>
