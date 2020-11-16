@@ -1,7 +1,3 @@
-<html>
-    <head>
-    </head>
-    <body>
 <?php
 
 $conn = mysqli_init();
@@ -16,15 +12,17 @@ $sql = "DELETE FROM guestbook WHERE id='$id'";
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "<h2>" .Record has been remove. "</h2>";
+    echo "<h2>" "Record has been remove" "</h2>";
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
   
 mysqli_close($conn);
 ?>
-
-    
+<html>
+    <head>
+    </head>
+    <body>
         <a href = "index.php">Continue</a>
     </body>
 </html>
