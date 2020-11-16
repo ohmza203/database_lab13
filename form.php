@@ -13,7 +13,7 @@
 		<div class="form-group">
 			<label class="control-label col-sm-2" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" class="form-control" name = "name" id="idName" placeholder="Enter Name"></textarea>
+		      <textarea rows="10" col="20" class="form-control" name = "name" id="idName" placeholder="Enter Name"></textarea>
 		    </div>
 		 </div>
 		 <div class="form-group">
@@ -22,6 +22,13 @@
 		      <textarea rows="10" col="20" class="form-control" name = "comment" id="idComment" placeholder="Enter Comment"></textarea>
 		    </div>
 		  </div>
+		<div class="form-group">
+		    <label class="control-label col-sm-2" for="link"><h3 style='color:white;'>Link:</h3></label>
+		    <div class="col-sm-10">
+		      <textarea rows="10" col="20" class="form-control" name = "link" id="idLink" placeholder="Enter Link"></textarea>
+		    </div>
+		</div>
+		<button type="submit" class="btn btn-success">Submit</button>
 	</form> 
 </body>
 </html>
