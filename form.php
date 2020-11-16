@@ -9,6 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#303030;">
+    <div class="container">
 	<form class="form-horizontal" action = "insert.php" method = "post" id="CommentForm" >
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
@@ -29,6 +30,7 @@
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
-	</form> 
+	</form>
+	</div>
 </body>
 </html>
