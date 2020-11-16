@@ -15,7 +15,7 @@ $edit_id = $_REQUEST['edit_id'];
  <body style="background-color:#303030;">
     <h2 style='text-align:center; color:white;'>Edit form</h2>
     <div class="container">
-	<form class="form-horizontal" action = "insert.php" method = "post" id="CommentForm" >
+	<form class="form-horizontal" action = "edit.php" method = "post" id="CommentForm" >
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
