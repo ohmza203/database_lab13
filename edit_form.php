@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
-$edit_id = $_REQUEST['edit_id']; 
+$edit_id = $_REQUEST['edit_id'];
+$name = $_REQUEST['name'];
+$link = $_REQUEST['link'];
+$comment = $_REQUEST['comment'];
 ?>
 <html>
 <head>
@@ -19,19 +22,19 @@ $edit_id = $_REQUEST['edit_id'];
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="Enter Name">
+		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="<?php echo $name; ?>">
 		    </div>
 		 </div>
 		 <div class="form-group form-group-lg">
 		    <label class="col-sm-2 control-label" for="comment"><h3 style='color:white;'>Comment:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="Enter Comment"></textarea>
+		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="<?php echo $comment; ?>"></textarea>
 		    </div>
 		  </div>
 		<div class="form-group form-group-sm">
 		    <label class="col-sm-2 control-label" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter Link">
+		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="<?php echo $link; ?>">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
