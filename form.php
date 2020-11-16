@@ -10,13 +10,18 @@
 </head>
 <body style="background-color:#303030;">
 	<form class="form-horizontal" action = "insert.php" method = "post" id="CommentForm" >
-		<h3 style='color:white;'>Name:</h3><br>
-		<input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
-		<h3 style='color:white;'>Comment:</h3><br>
-		<textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
-		<h3 style='color:white;'>Link:</h3><br>
-		<input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
-		<button type="submit" class="btn btn-success">Submit</button>
+		<div class="form-group">
+		    <label class="control-label col-sm-2" for="name">Name:</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name = "name" id="idName" placeholder="Enter Name">
+		    </div>
+		 </div>
+		 <div class="form-group">
+		    <label class="control-label col-sm-2" for="comment">Comment:</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name = "comment" id="idComment" placeholder="Enter Comment">
+		    </div>
+		  </div>
 	</form> 
 </body>
 </html>
