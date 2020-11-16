@@ -26,7 +26,7 @@
 		<div class="form-group form-group-sm">
 		    <label class="col-sm-2 control-label" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <input type="text" class="form-control" name = "link" id="link" placeholder="Enter Link">
+		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter Link">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
