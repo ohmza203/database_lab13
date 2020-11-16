@@ -25,7 +25,7 @@
 		<div class="form-group">
 		    <label class="control-label col-sm-2" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "link" id="idLink" placeholder="Enter Link"></textarea>
+		      <input type="text" class="form-control" name = "link" id="idLink" placeholder="Enter Link">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
