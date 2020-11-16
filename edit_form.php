@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <?php
 $edit_id = $_REQUEST['edit_id'];
-$name = $_REQUEST['name'];
-$link = $_REQUEST['link'];
-$comment = $_REQUEST['comment'];
+$data = SELETE * FROM guestbook WHERE id='$edit_id';
 ?>
 <html>
 <head>
@@ -17,24 +15,25 @@ $comment = $_REQUEST['comment'];
 <body>
  <body style="background-color:#303030;">
     <h2 style='text-align:center; color:white;'>Edit form</h2>
+    <?php echo $data ?>
     <div class="container">
 	<form class="form-horizontal" action = "edit.php?edit_id=<?php echo $edit_id; ?>" method = "post" id="CommentForm" >
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="<?php echo $name; ?>">
+		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="Enter name">
 		    </div>
 		 </div>
 		 <div class="form-group form-group-lg">
 		    <label class="col-sm-2 control-label" for="comment"><h3 style='color:white;'>Comment:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="<?php echo $comment; ?>"></textarea>
+		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="Enter comment"></textarea>
 		    </div>
 		  </div>
 		<div class="form-group form-group-sm">
 		    <label class="col-sm-2 control-label" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="<?php echo $link; ?>">
+		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter link">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
