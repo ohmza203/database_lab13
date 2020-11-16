@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 $edit_id = $_REQUEST['edit_id'];
-echo SELETE * FROM guestbook WHERE id='$edit_id';
+SELETE * FROM guestbook WHERE id='$edit_id';
 ?>
 <html>
 <head>
