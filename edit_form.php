@@ -2,6 +2,7 @@
 <?php
 $edit_id = $_REQUEST['edit_id'];
 $data = SELETE * FROM guestbook WHERE id='$edit_id';
+echo $data
 ?>
 <html>
 <head>
@@ -15,7 +16,6 @@ $data = SELETE * FROM guestbook WHERE id='$edit_id';
 <body>
  <body style="background-color:#303030;">
     <h2 style='text-align:center; color:white;'>Edit form</h2>
-    <?php echo $data ?>
     <div class="container">
 	<form class="form-horizontal" action = "edit.php?edit_id=<?php echo $edit_id; ?>" method = "post" id="CommentForm" >
 		<div class="form-group form-group-sm">
