@@ -13,19 +13,19 @@
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "name" id="idName" placeholder="Enter Name">
+		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="Enter Name">
 		    </div>
 		 </div>
 		 <div class="form-group form-group-lg">
 		    <label class="col-sm-2 control-label" for="comment"><h3 style='color:white;'>Comment:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "comment" id="idComment" placeholder="Enter Comment"></textarea>
+		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="Enter Comment"></textarea>
 		    </div>
 		  </div>
 		<div class="form-group form-group-sm">
 		    <label class="col-sm-2 control-label" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <input type="text" class="form-control" name = "link" id="idLink" placeholder="Enter Link">
+		      <input type="text" class="form-control" name = "link" id="link" placeholder="Enter Link">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button></center>
