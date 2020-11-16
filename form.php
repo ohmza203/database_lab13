@@ -13,7 +13,7 @@
 		<div class="form-group">
 			<label class="control-label col-sm-2" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <input type="text" class="form-control" name = "name" id="idName" placeholder="Enter Name">
+		      <br><input type="text" class="form-control" name = "name" id="idName" placeholder="Enter Name">
 		    </div>
 		 </div>
 		 <div class="form-group">
