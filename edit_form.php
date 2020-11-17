@@ -34,7 +34,7 @@
 		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter link">
 		    </div>
 		</div>
-		<center><button type="submit" class="btn btn-success">Submit</button><a href="index.php" class="btn btn-warning">Cancel</button></center>
+		<center><button type="submit" class="btn btn-success">Submit</button><a href="index.php" class="btn btn-warning">Cancel</a></center>
 	</form>
 	</div>
 </body>
