@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <?php
 	$edit_id = $_REQUEST['edit_id'];
+	$conn = mysqli_init();
+        mysqli_real_connect($conn, 'ohmbase.mysql.database.azure.com', 'ohmzasa203@ohmbase', 'Ohmmie203', 'itflab', 3306);
+        if (mysqli_connect_errno($conn))
+        {
+            die('Failed to connect to MySQL: '.mysqli_connect_error());
+        }
+        $res = mysqli_query($conn, "SELECT * FROM guestbook WHERE id='$edit_id'");
+  	$row = mysqli_fetch_array($res);
+  	extract($row);
 ?>
 <html>
 <head>
@@ -19,7 +28,7 @@
 		<div class="form-group form-group-sm">
 			<label class="col-sm-2 control-label" for="name"><h3 style='color:white;'>Name:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "name" id="name" placeholder="Enter name">
+		      <br><input type="text" class="form-control" name = "name" id="name" value="<?php echo $Name; ?>">
 		    </div>
 		 </div>
 		 <div class="form-group form-group-lg">
