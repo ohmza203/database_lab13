@@ -34,13 +34,13 @@
 		 <div class="form-group form-group-lg">
 		    <label class="col-sm-2 control-label" for="comment"><h3 style='color:white;'>Comment:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="Enter comment"></textarea>
+		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" ><?php echo htmlspecialchars($Comment); ?></textarea>
 		    </div>
 		  </div>
 		<div class="form-group form-group-sm">
 		    <label class="col-sm-2 control-label" for="link"><h3 style='color:white;'>Link:</h3></label>
 		    <div class="col-sm-10">
-		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter link">
+		      <br><input type="text" class="form-control" name = "link" id="link" value="<?php echo $Link; ?>">
 		    </div>
 		</div>
 		<center><button type="submit" class="btn btn-success">Submit</button>  <a href="index.php" class="btn btn-danger">Cancel</a></center>
