@@ -32,7 +32,7 @@
 		      <br><input type="text" class="form-control" name = "link" id="link" placeholder="Enter Link">
 		    </div>
 		</div>
-		<center><button type="submit" class="btn btn-success">Submit</button></center>
+		<center><button type="submit" class="btn btn-success">Submit</button>   <a href="index.php" class="btn btn-danger">Cancel</a></center>
 	</form>
 	</div>
 </body>
