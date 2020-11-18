@@ -46,7 +46,6 @@
             }
         ?>
         </table>
-        <br>
         <script>
         $(document).ready(function () {
             $("#myTable").DataTable();
