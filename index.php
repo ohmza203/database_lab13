@@ -12,7 +12,7 @@
         <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
     </head>
-    <body style="background-color:#303030;">
+    <body>
         <?php
             $conn = mysqli_init();
             mysqli_real_connect($conn, 'ohmbase.mysql.database.azure.com', 'ohmzasa203@ohmbase', 'Ohmmie203', 'itflab', 3306);
@@ -22,7 +22,7 @@
             }
             $res = mysqli_query($conn, 'SELECT * FROM guestbook');
         ?>
-        <table id="myTable" class="display table table-dark table-hover table table-bordered table table-hover">
+        <table id="myTable" class="display table table-bordered table table-hover">
             <thead class="thead-dark">
                 <tr>
                     <th width="25%"> <div align="center"><h4>Name</h4></div></th>
